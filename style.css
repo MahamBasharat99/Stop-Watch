@@ -1,0 +1,94 @@
+body{
+/*   
+    background: linear-gradient(to left,rgb(253, 199, 20),hsl(0, 100%, 51%)); */
+/*   
+    background: linear-gradient(to left,#607d8b,#d459cb); */
+    background-image: url("images/clock.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    /* \\cover */
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+}
+/* @media only screen and (max-width: 500px) {
+  .bgimg{
+    
+      background-repeat: repeat;
+      background-size: 100%,100% !important;
+  } }*/
+   
+   @media only screen and (max-width: 500px) {
+    .main_head{
+      
+      margin-top:150px !important;
+      font-size:38pt !important ;
+      width: 200px !important;
+    }
+     }
+
+.main_head{
+    
+    color:#800000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 44pt;
+    width:250px;
+    text-align: center;
+    border-radius:0px 50px 0px 50px ;
+    background-color: goldenrod;
+    margin-top: 200px !important;
+}
+.show{
+    display: inline-block;
+    width:100px;
+    height: 100px;
+    background-color:#D4AF37;
+    border-radius: 50px;
+    border: 2px solid #8B4513;
+    box-shadow: 10px solid 	#800000;
+    text-align: center;
+    /* margin-top: 10px;
+ */
+}
+@media only screen and (max-width: 420px) {
+    .show{
+      width: 70px;
+      height: 70px;
+      padding-bottom:16px !important;;
+      font-size: 26pt;
+ 
+    
+    }
+     }
+@media only screen and (max-width: 420px) {
+    .name{
+      width:70px !important;
+      font-size: 8pt !important;
+     }
+     }
+
+.name{
+    display: inline-block;
+    width:100px;
+    text-align: center;
+    color:#800000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12pt;
+    background-color: goldenrod;
+    
+}
+.control{
+    background-color: #800000;
+    color:white;
+    border-radius: 20px;
+    height:40px;
+    width: 100px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .control{
+      width:70px !important;
+      font-size: 12pt !important;
+      height:30px;
+     }
+     }
